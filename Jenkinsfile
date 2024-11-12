@@ -1,7 +1,7 @@
 pipeline {
-    agent { label 'linux' }
+    agent { label 'linux2' }
     tools {
-      maven 'Maven-3.8.4'
+      maven 'maven-3.9.9'
     }
     stages {
         stage('Source') {
